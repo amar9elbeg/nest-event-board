@@ -13,8 +13,7 @@ export const Navbar = () => {
   return (
     <Wrapper>
       <NavbarWrapper>
-        
-        <NestSchoolLogo />
+        <NestSchoolLogo style={{ marginLeft: "11vw" }} />
 
         <RouteWrapper>
           <Link to="/" style={fontStyle}>
@@ -30,7 +29,6 @@ export const Navbar = () => {
             <div> Sign up </div>
           </Link>
         </RouteWrapper>
-        
       </NavbarWrapper>
     </Wrapper>
   );
